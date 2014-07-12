@@ -1,0 +1,10 @@
+# SimplisticReloader Configuration #
+
+Reload_Message: Server Reload in Effect
+Reload_Complete_Message: Reload Complete
+Stop_Message: Server Shutdown in Effect
+
+# Use Numbers 0-9 and Letters a-f #
+# Refer Here for Colors: http://www.minecraftwiki.net/wiki/Formatting_codes #
+Reload_Color: e
+Stop_Color: c
