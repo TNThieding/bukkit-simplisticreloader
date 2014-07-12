@@ -1,0 +1,23 @@
+name: SimplisticReloader
+main: com.thieding.tyler.SimplisticReloader
+version: 1.2.1
+
+commands:
+    reload+:
+        description: Allows better event handling of server reloads
+        usage: /reload+
+        permission: SimplisticReloader.reload+
+        permission-message: You don't have SimplisticReloader.reload+
+    stop+:
+        description: Allows better event handling of server shutdowns
+        usage: /stop+
+        permission: SimplisticReloader.stop+
+        permission-message: You don't have SimplisticReloader.stop+
+
+permissions:
+    SimplisticReloader.reload+:
+        description: Allows better event handling of server reloads
+        default: op
+    SimplisticReloader.stop+:
+        description: Allows better event handling of server shutdowns
+        default: op
